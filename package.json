@@ -1,0 +1,23 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "My personal task manager for automated tasks implementation.",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "gulp",
+    "mohiliei",
+    "2023"
+  ],
+  "author": "Oleksandr Mohiliei",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "del": "^7.1.0"
+  }
+}
