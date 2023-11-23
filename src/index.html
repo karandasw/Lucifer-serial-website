@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html lang="uk">
+@@include('html/head.html',{
+"title": "Lucifer"
+})
+
 <body>
-    
+    @@include('html/header.html',{})
+    @@include('html/registration.html',{})
+    @@include('html/about.html',{})
+    @@include('html/video.html',{})
+    @@include('html/seasons.html',{})
+    @@include('html/heroes.html',{})
+    @@include('html/footer.html',{})
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
 </body>
+
 </html>
